@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{
+            background-image: url(pink.jfif);
+            background-size: justify;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .wrapper{
+            width: 1200px;
+            margin: 100px auto;
+        }
+        .title{
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .title h4{
+            text-transform: capitalize;
+            font-size: 60px;
+            position: relative;
+            display: inline-block;
+            color:palevioletred ;
+            text-decoration-style: dotted;
+            text-decoration-line: underline;
+            text-shadow: 3px 3px 4px rgb(116, 73, 35);
+        }
+        .title h4 span{
+            display: block;
+            font-size: 70;
+            font-style: italic;
+            margin-bottom: 12px;
+            color: grey;
+            text-shadow: 5px 6px 6px rgb(180, 75, 26);
+            margin-bottom: 4px;
+        }
+        .title h4:before{
+            position: absolute;
+            content: "";
+            width: 100px;
+            height: 2px;
+            background-color: indianred;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .menu{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+        .single-menu{
+            flex-basis: 580px;
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid yellow;
+
+        }
+        .single-menu:nth-child(9), .single-menu:nth-child(10){
+            border-bottom: 0;
+        }
+        .single-menu{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+        .single-menu:hover img{
+            border-radius: 0;
+            
+        }
+        .single-menu img{
+            max-width: 350px;
+            height: 400px;
+            margin-right: 40px;
+            border-radius: 50%;
+            border:3px solid rgb(180, 75, 26);
+            padding: 5px;
+        }
+        .single-menu h5{
+            text-transform: capitalize;
+            font-size: 30px;
+            border-bottom: 2px dashed rgb(187, 36, 129);
+            margin-bottom: 6px;
+            padding-bottom: 6px;
+            color: rgb(187, 16, 25);
+            
+        }
+        .single-menu h5 span{
+            color: darkblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            align-items: center;
+        }
+        .single-menu p{
+            color: dimgray;
+            font-size: 35px;
+            text-shadow: 2px 2px 2px orchid;
+            font-style: italic;
+        }
+        table{
+            text-align: center;
+            margin-left: 80px;
+            padding: 100px;
+        }
+        table tr td{
+            color: red;
+            width: 500px;
+            height: 300px;
+            word-spacing: 10px;
+            border: 10px solid black;
+            border-top-left-radius: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 35px;
+            border-bottom-left-radius: 30px;
+        }
+        table tr td .a,.b,.c,.d{
+            text-decoration-line: underline;
+            color: brown;
+            font-weight: bold;
+            
+        }
+        button {
+            text-align: center;
+            font-size: 50px;
+            margin-left: 40%;
+            padding: 20px;
+            color: rgb(161, 8, 8);
+            background-color: burlywood;
+            font-style: italic;
+            font-weight: bold;
+            border: 10px solid rgb(175, 116, 38);
+            border-top-right-radius: 50px ;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+
+        }
+        button a:hover{
+            color: royalblue;
+
+        }
+        #thanks img{
+            width: 500px;
+            height: 400px;
+        margin-left: 40%;
+        background-color: thistle;
+        box-shadow: 10px 10px 20px blue;
+        }
+
+    
+    
+
+        
+
+
+    </style>
+    
+</head>
+    <body>
+        <div class="wrapper">
+            <div class="title">
+                <h4><span>FRESH FOOD FOR GOOD HEALTH    </span>Our Menu...</h4>
+            </div>
+            <div class="menu">
+               
+            
+                
+            <div class="single-menu">
+                    <img src="expresso.jpg" alt="">
+                    <div class="menu-content">
+                        <h5> Espresso coffee...<span>  RS 80(per cup)</span></h5>
+                        <p>This is very tasty coffee of varities.</p>
+        </div>
+            </div>
+            <div class="single-menu">
+                <img src="chco.jpg" alt="">
+                <div class="menu-content">
+                    <h5> Dark chocolate coffee...<span> RS 125(per cup)</span></h5>
+                    <p>Dark choco is a one most popular coffee in our cafe..</p>
+    </div>
+        </div>
+        <div class="single-menu">
+            <img src="hotcoffe.jpg" alt="">
+            <div class="menu-content">
+                <h5> Hot dark coffee...<span> RS 80(per cup)</span></h5>
+                <p>Hot coffee is reduces stress to tension and drink is best</p>
+</div>
+    </div>
+    <div class="single-menu">
+        <img src="burger.jpg" alt="">
+        <div class="menu-content">
+            <h5> vegetable cheese burger...<span> RS 50</span></h5>
+            <p>Burger chesse is the delicious item of fast foods varities</p>
+</div>
+</div>
+<div class="single-menu">
+    <img src="pizza.jpg" alt="">
+    <div class="menu-content">
+        <h5> Vegetable cheese pizza...<span> RS 170</span></h5>
+        <p>Pizza is full fill with pure nuts and vegetables..</p>
+</div>
+</div>
+<div class="single-menu">
+    <img src="hakka.jpg" alt="">
+    <div class="menu-content">
+        <h5> Hakka noodles with wihite sauce...<span>  RS 100(per plate)</span></h5>
+        <p>Hakka noddles is very tasty and look good with white sos..</p>
+</div>
+</div>
+<div class="single-menu">
+    <img src="cold.jpg" alt="">
+    <div class="menu-content">
+        <h5> Cold Coffee flavour...<span> RS 120(per cup)</span></h5>
+        <p>Cold coffee with chocolate flavour</p>
+</div>
+</div>
+<div class="single-menu">
+    <img src="tomato.jpg" alt="">
+    <div class="menu-content">
+        <h5> Tomato pizza...<span> RS 140 (4 inch)</span></h5>
+        <p>Tomato pizza staffing is full fill with yummy red sauce tomato pieces..</p>
+</div>
+</div>
+<div class="single-menu">
+    <img src="allo.jpg" alt="">
+    <div class="menu-content">
+        <h5> Aaalu tikki burger...<span> RS 80 </span></h5>
+        <p>Aaalo tikki burger is very tasty and its full fill with double tikki layers..</p>
+</div>
+</div>
+<div class="single-menu">
+    <img src="cortado.jpg" alt="">
+
+    <div class="menu-content">
+        <h5> Brown cordato coffee..<span> RS 100 </span></h5>
+        <p>Cortado is very tasty in drink.its an foreign brand of UK.</p>
+</div>
+</div>
+<div class="single-menu">
+    <img src="mocha.jpg" alt="">
+    <div class="menu-content">
+        <h5>Chocolate mocha (DARK CHOCO)..<span>RS 150</span></h5>
+        <p>mocha is very tasty in taste of drink coffee.</p>
+    </div>
+    </div>
+
+    
+    
+
+    <div class="single-menu">
+        <img src="french.jfif" alt="">
+    <div class="menu-content">
+        <h5> French fries (Masala potato)...<span> RS 50(plate)</span></h5>
+        <p>French fries is made with masala potato with white souce..</p>
+</div>
+</div>
+
+<div class="single-menu">
+    <img src="capa.jpg" alt="">
+    
+
+    
+    <div class="menu-content">
+        <h5> Cappuccino coffee...<span> RS 100(one cup)</span></h5>
+        <p>This coffee is very yummy in taste and most populer coffee in india..</p>
+</div>
+</div>
+<div class="single-menu">
+    <img src="ulti.jpg" alt="">
+    
+
+    
+    <div class="menu-content">
+        <h5> Ultimate masala noddles with black pepper...<span> RS 100(per plate)</span></h5>
+        <p>Black pepper noddles.with masala thadhka..</p>
+</div>
+</div>
+
+<div class="single-menu">
+    <img src="french.jfif" alt="">
+    <div class="menu-content">
+    <h5> French fries (masala)..<span> RS 50 </span></h5>
+    <p>French fries with masala potato fillings..</p>
+</div>
+</div>
+
+<div class="single-menu">
+    <img src="coca.jpg" alt="">
+    <div class="menu-content">
+    <h5> COCA cola drink..<span> RS 80 </span></h5>
+    <p>COCA drinks with cold ice filling crunches..</p>
+</div>
+</div>
+<div class="single-menu">
+    <img src="cocktail.jpg" alt="">
+    <div class="menu-content">
+    <h5> COCKTAILS Drinks..<span> RS 150 (PER GLASS) </span></h5>
+    <p>Party loyality drink in our cafe..</p>
+</div>
+</div>
+
+<div class="single-menu">
+    <img src="mrinda.jpg" alt="">
+    <div class="menu-content">
+    <h5> Mrinda orange..<span> RS 80 </span></h5>
+    <p>BOTTLE  of fresh oranges ..</p>
+</div>
+</div>
+
+<div class="single-menu">
+    <img src="lemon.jpg" alt="">
+    <div class="menu-content">
+    <h5> LEMON (masala) drink..<span> RS 80 </span></h5>
+    <p>LEMON drink with masala cold ice..cubes..</p>
+</div>
+</div>
+
+<div class="single-menu">
+    <img src="honey.jpg" alt="">
+    <div class="menu-content">
+    <h5> HONEY chilli potato..<span> RS 100 (plate) </span></h5>
+    <p>Honey chilli potato with sweet and chatpata thadhka..</p>
+</div>
+</div>
+
+<div class="single-menu">
+    <img src="milk.jpg" alt="">
+    <div class="menu-content">
+    <h5> ALMOND milk coffee..<span> RS 80 </span></h5>
+    <p>Almond milk coffee with pure milk...</p>
+</div>
+</div>
+
+<div class="single-menu">
+    <img src="spring.jpg" alt="">
+    <div class="menu-content">
+    <h5> Spring rolls (soyabeen gravy)..<span> RS 80 (per plate) </span></h5>
+    <p>CHATPATE rolls with soyabeen fillings..</p>
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+<table border=0 align="center" bgcolor="pink">
+    <tr>
+    <td><div class="a"> OUR BOOKINGS. </div>
+        <ul type="none">
+            <li>Hall Book (4000)For 3 HOURS..Increase (RATES) ON TIME Value...</li>
+            <li>Birthday Party</li>
+            <li>New Year Party</li>
+            <li>Friends FUN Celebration</li>
+            <li>Family Get Toghter</li>
+        </ul>
+    </td>
+    <td><div class="b"> DISCOUNT OFFERS. </div>
+        <ul type="none">
+            <li>Our Cafe PROVIDE Discount.
+                (35%) Above order on 
+                500 RUPEES.
+             </li>
+        </ul>
+    </td>
+    <td><div class="c"> OUR SERVICES.</div>
+        <ul type="none">
+            <li>Order Send To Customer On Time.</li>
+            <li>Shipping Charges Start (100 Rupees)</li>
+            <li>Charges Will Be Increase Due To ROUTE..</li>
+        </ul>
+    </td>
+    <td><div class="d"> HAPPY VISIT... </div>
+
+        <ul type="none">
+            <li>Please Come In Our Cafe</li>
+            <li> Or Enjoy The Tasty Coffes And Eat Yummy Fast Foods</li>
+        </ul>
+
+    </tr>
+    
+    </table>
+    <br>
+    <button type="button"> <a href="form1.html">Order Now.</a>
+        . </button>
+    <br> <br>
+    <div id="thanks"><img src="thanks.png"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            </div>
+
+
+</body>
+</html>

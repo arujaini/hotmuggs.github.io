@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{
+            background-image: url(wal.jpg);
+            background-size: cover;
+            width: 1000px;
+            margin-bottom: 200px;
+
+        }
+        h1{
+            color: rgb(117, 9, 9);
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', ;
+            font-size: 50px;
+            font-weight: bold;
+            text-shadow: 4px 4px 4px black;
+            text-decoration-line: overline;
+            text-decoration-line: underline;
+        
+            
+        }
+        span{
+            color:rgb(133, 75, 1);
+            text-align: center;
+            margin-left: 200px;
+            text-shadow: 3px 4px 3px  skyblue;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+
+
+
+        }
+        .container{
+width: 250px;
+height: 350px;
+background: url(shef.jfif);
+position: absolute;
+left: 50%;
+top: 60%;
+margin-right: 50px;
+transform: translate(-50%,-50%);
+perspective: 1000px;
+        }
+        .cover{
+width: 210px;
+height: 100%;
+position: absolute;
+left: 40px;
+background-color: brown;
+transform: rotateY(-20deg);
+transform-style: preserve-3d;
+transform-origin: left;
+transition: all .5s ease-in;
+}
+.container:hover .cover{
+transform: rotateY(-180deg);
+}
+.figure{
+margin:0;
+display: block;
+position: absolute;
+width: 100%;
+height: 100px;
+background: rgb(166, 255, 0);
+}
+.back{
+background-color: grey;
+}
+.front{
+background: rgb(202, 62, 148);
+transform: rotateY(180deg);
+text-align: center;
+}
+.front a{
+    color: coral;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+    border: 2px solid red;
+    text-align: center;
+    text-decoration: 1px 2px 1px yellow;
+    text-shadow: 2px 2px 1px pink;
+}
+h2{
+    margin-left: 90%;
+    margin-top: 50px;
+    text-align: center;
+    color: indigo;
+    font-family: cursive;
+    font-weight: bold;
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+    border: 10px solid grey;
+    border-top-left-radius: 10px;
+    width: 140px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 8px 8px 4px yellow;
+}
+.front a:hover{
+    color: gray;
+}
+
+
+        </style>
+
+    <body bgcolor="grey">
+        <h1> CAFE MENU..</h1>
+        
+      <marquee behaviour="left">  <SPAN>THE HOT MUGGS CAFE..</SPAN></marquee>
+      <br>
+      <div class="container">
+    
+        <div class="cover"> 
+        <figure class="front"><a href="food.html">AAPKA MENU..</a></figure>
+        <figure class="back"></figure>
+        </div>
+        </div>
+        <h2>open the card...and tap the link..</h2>
+        
+      
+      
+
+    </body>
+</head>
+</html>
